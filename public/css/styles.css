@@ -1,6 +1,17 @@
+
+
 body {
-    color: #333333;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    background-image: url("../img/background.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     font-family: arial;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
@@ -8,14 +19,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh
+
 }
 
 .main-content {
+    padding-top: 10vh;
     flex-grow: 1;
 }
 
 footer {
-    color: #888888;
+    color: #ffffff;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -24,6 +37,7 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+    color: #eeeeee;
 }
 
 h1 {
@@ -32,13 +46,18 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: #fffdfd;
     margin-right: 16px;
     text-decoration: none;
 }
 
 .portrait {
     width: 250px;
+    height: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 input {
